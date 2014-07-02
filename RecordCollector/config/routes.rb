@@ -1,4 +1,5 @@
 RecordCollector::Application.routes.draw do
+  get "albums/new"
   root "static_pages#home"
   get "static_pages/home"
   # The priority is based upon order of creation: first created -> highest priority.
